@@ -1,0 +1,13 @@
+{application, spackle,
+ [
+  {description, "Data structures to SQL"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  sasl
+                 ]},
+  {mod, { spackle_app, []}},
+  {env, []}
+ ]}.
